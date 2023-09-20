@@ -3,7 +3,7 @@ package Balance;
 public class Balance {
     String Acc_no;
     String name;
-    double bal;
+    double bal = 0;
 
     public Balance(String a, String n, double b) {
         Acc_no = a;
