@@ -16,8 +16,6 @@ public class CircleServer {
         double area = myPI* iRadius * iRadius;
         String result ="Area of radius "+rad+" is "+ area;
 
-
-
         OutputStream ostream = sock.getOutputStream();
         PrintWriter pwrite = new PrintWriter(ostream,true);
         pwrite.println(result);

@@ -10,7 +10,7 @@ interface stack {
     int pop();
 }
 class Istack implements stack{
-    int a[] = new int[10];
+    int a[] = new int[20];
     int top;
 
     Istack() {
